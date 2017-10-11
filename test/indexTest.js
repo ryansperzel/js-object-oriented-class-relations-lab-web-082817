@@ -42,7 +42,7 @@ describe('passengers', function() {
       })
     })
 
-    it('can create a Driver with a name', function() {
+    it('can create a Passenger with a name', function() {
       let passenger = new Passenger("Alfie")
       expect(passenger.name).to.equal("Alfie")
     })
